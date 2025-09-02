@@ -1,5 +1,7 @@
+import Homepage from "./pages/home-page";
+
 function App() {
-  return <h1>AIM Institute</h1>;
+  return <Homepage />;
 }
 
 export default App;

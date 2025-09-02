@@ -14,8 +14,16 @@ export const radius = {
 
 export const color = {
   primary: "#",
-  white: "#",
+  white: "#FFFFFF",
   black: "#000000",
   transparent: "rgba(0,0,0,0)",
   link: "#2A9DF4",
+};
+
+export const category = {
+  Alumni: "#007BFF",
+  Students: "#FFD700",
+  Partnerships: "#007BFF",
+  Film: "#FF0000",
+  Awards: "#FFD700",
 };
