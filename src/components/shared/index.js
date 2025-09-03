@@ -15,10 +15,10 @@ export const Container = styled.div`
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 4rem 1rem;
+  padding: 3rem 1rem;
 
   ${breakpoint.tablet} {
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
   }
 `;
 

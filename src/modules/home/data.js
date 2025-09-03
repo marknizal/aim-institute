@@ -1,4 +1,4 @@
-export const newsItems = [
+export const NEWS_ITEMS = [
   {
     id: 1,
     category: "Alumni",

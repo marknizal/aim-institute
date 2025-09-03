@@ -39,17 +39,6 @@ export const Heading = styled.article`
   align-items: start;
   gap: 1rem;
 
-  .category {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    background-color: ${(props) => props.$bg || "red"};
-    color: white;
-    padding: 0.25rem 0.5rem;
-    border-radius: 0.4rem;
-    font-size: 0.8rem;
-  }
-
   .title {
     font-size: 2rem;
 
