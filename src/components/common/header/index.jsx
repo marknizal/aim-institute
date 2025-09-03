@@ -1,20 +1,41 @@
-import Navbar from "../navbar";
-import { Button } from "antd";
-
+import { useState } from "react";
 import { LuExternalLink } from "react-icons/lu";
-import AIMLogo from "../../../assets/logo.png";
+import { CgMenu } from "react-icons/cg";
+
+import { Button, Drawer } from "antd";
+
+import Navbar from "../navbar";
+import AIM from "../../../assets/logo.png";
 
 import * as S from "./styles";
 
 const Header = () => {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
   return (
     <S.Wrapper>
       <S.Container>
-        <S.Logo src={AIMLogo} alt="Logo" />
+        <S.Logo src={AIM} alt="Logo" />
+
         <Navbar />
-        <Button type="primary" icon={<LuExternalLink />}>
+
+        <Button
+          className="apply-now-btn"
+          type="primary"
+          icon={<LuExternalLink />}
+        >
           Apply Now
         </Button>
+
+        <CgMenu className="menu-icon" onClick={() => setIsDrawerOpen(true)} />
+
+        <Drawer
+          open={isDrawerOpen}
+          onClose={() => setIsDrawerOpen(false)}
+          placement="left"
+        >
+          <Navbar isMobile />
+        </Drawer>
       </S.Container>
     </S.Wrapper>
   );

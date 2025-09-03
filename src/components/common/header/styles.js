@@ -1,30 +1,60 @@
 import styled from "@emotion/styled";
-import { color } from "../../../styles";
-import { Container as C, Image as I } from "../../shared";
+
+import { Container as C, Image } from "../../shared";
+import { color, breakpoint } from "../../../styles";
 
 export const Wrapper = styled.header`
   display: flex;
   position: fixed;
   width: 100%;
-  height: 5.75rem;
+  height: 4rem;
   top: 0;
   left: 0;
   background-color: ${color.white};
+
+  ${breakpoint.desktop} {
+    height: 5.75rem;
+  }
 `;
 
 export const Container = styled(C)`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
-  padding: 0;
-  margin: auto;
+  gap: 2rem;
+  padding: 1rem !important;
+
+  .menu-icon {
+    display: flex;
+    font-size: 1.75rem;
+    flex-shrink: 0;
+  }
+
+  .apply-now-btn {
+    display: none;
+  }
+
+  ${breakpoint.desktop} {
+    padding: 0;
+
+    .menu-icon {
+      display: none;
+    }
+
+    .apply-now-btn {
+      display: flex;
+    }
+  }
 `;
 
-export const Logo = styled(I)`
+export const Logo = styled(Image)`
   aspect-ratio: 16 / 9;
+  width: 5rem;
   object-fit: contain;
-  width: 8rem;
   pointer-events: all;
   cursor: pointer;
+
+  ${breakpoint.desktop} {
+    width: 8rem;
+  }
 `;

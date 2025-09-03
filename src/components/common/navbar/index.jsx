@@ -1,13 +1,9 @@
 import * as S from "./styles";
 
-const menuItems = [
+const NAV_ITEMS = [
   {
     key: "admissions",
-    label: (
-      <span>
-        Admissions <S.ArrowIcon />
-      </span>
-    ),
+    label: "Admissions",
     children: [
       { key: "admission-requirements", label: "Admission Requirements" },
       { key: "online-application", label: "Online Application" },
@@ -17,11 +13,7 @@ const menuItems = [
   },
   {
     key: "programs",
-    label: (
-      <span>
-        Programs <S.ArrowIcon />
-      </span>
-    ),
+    label: "Programs",
     children: [
       { key: "college-programs", label: "College Programs" },
       { key: "senior-high-school", label: "Senior High School" },
@@ -32,11 +24,7 @@ const menuItems = [
   { key: "aim-blog", label: "AIM Blog" },
   {
     key: "alumni",
-    label: (
-      <span>
-        Alumni <S.ArrowIcon />
-      </span>
-    ),
+    label: "Alumni",
     children: [
       { key: "alumni-stories", label: "Alumni Stories" },
       { key: "academic-docs", label: "Academic Document Request" },
@@ -47,11 +35,7 @@ const menuItems = [
   },
   {
     key: "about-aim",
-    label: (
-      <span>
-        About AIM <S.ArrowIcon />
-      </span>
-    ),
+    label: "About AIM",
     children: [
       { key: "about-aim-page", label: "About AIM" },
       { key: "one-aim", label: "ONE AIM Learning Model" },
@@ -65,8 +49,24 @@ const menuItems = [
   },
 ];
 
-const Navbar = () => {
-  return <S.Menu mode="horizontal" items={menuItems} />;
+const Navbar = ({ isMobile }) => {
+  const items = NAV_ITEMS.map((item) => ({
+    ...item,
+    label:
+      item.children && !isMobile ? (
+        <S.Span>
+          {item.label} <S.ArrowIcon />
+        </S.Span>
+      ) : (
+        item.label
+      ),
+  }));
+
+  return isMobile ? (
+    <S.MobileMenu mode="inline" items={items} />
+  ) : (
+    <S.DesktopMenu mode="horizontal" items={items} />
+  );
 };
 
 export default Navbar;
