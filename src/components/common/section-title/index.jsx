@@ -1,12 +1,11 @@
-import { LuBook } from "react-icons/lu";
 import * as S from "./styles";
 
-const SectionTitle = ({ title, subtitle, Icon = LuBook, color }) => {
+const SectionTitle = ({ title, subtitle, Icon, color }) => {
   return (
     <S.Wrapper color={color}>
       {title && (
         <div className="title">
-          <Icon /> <h1>{title}</h1>
+          {Icon && <Icon />} <h1>{title}</h1>
         </div>
       )}
 
