@@ -1,11 +1,14 @@
 import { Fade } from "react-awesome-reveal";
+
 import { Main, Section } from "../../components/shared";
+import Copyright from "../../components/common/copyright";
 
 import Hero from "./hero";
 import LifeAtAim from "./life-at-aim";
 import Features from "./features";
 import Programs from "./programs";
 import Alumni from "./alumni";
+import AimInMotion from "./aim-in-motion";
 
 const Home = () => {
   return (
@@ -32,6 +35,14 @@ const Home = () => {
 
       <Section>
         <Alumni />
+      </Section>
+
+      <Section>
+        <AimInMotion />
+      </Section>
+
+      <Section $bg="#030926">
+        <Copyright />
       </Section>
     </Main>
   );

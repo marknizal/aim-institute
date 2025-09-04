@@ -166,3 +166,27 @@ export const ALUMNI = [
       "https://www.sti.edu/cms/images/alumni/thumbnail/2017-michaelamendiola.jpg",
   },
 ];
+
+export const VIDEOS = [
+  {
+    src: "https://www.youtube.com/embed/J3-24Z5A3EE?si=f1gVm0CxxKMENiuD",
+    title: "Be Future-ready in AIM",
+    featured: true,
+  },
+  {
+    src: "https://www.youtube.com/embed/RkDor0ZVGbU?si=6OQApzg6aZsDAGJ8",
+    title: "Keep looking up and moving forward.",
+  },
+  {
+    src: "https://www.youtube.com/embed/yGTVRo4gayw?si=hpFP3R41gAJbfzMG",
+    title: "Made to Be More in Senior High",
+  },
+  {
+    src: "https://www.youtube.com/embed/WgTW4OllvmE?si=nomcfKLhMhMOXe-t",
+    title: "Be More in College",
+  },
+  {
+    src: "https://www.youtube.com/embed/kV8EvMRYPdw?si=13Qx0khVtjfJpTU7",
+    title: "Behind a Mother’s Hard Work",
+  },
+];
