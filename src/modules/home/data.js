@@ -97,3 +97,16 @@ export const FEATURES = [
     bg: "#E91E63",
   },
 ];
+
+export const PROGRAMS = [
+  {
+    id: "college",
+    src: "https://www.sti.edu/images/2025/TER_Thumbnail_Cover.jpg",
+    alt: "College",
+  },
+  {
+    id: "shs",
+    src: "https://www.sti.edu/images/2025/SHS_Thumbnail_Cover.jpg",
+    alt: "SHS",
+  },
+];
