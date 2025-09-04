@@ -4,6 +4,7 @@ import Hero from "./hero";
 import LifeAtAim from "./life-at-aim";
 import Features from "./features";
 import Programs from "./programs";
+import Alumni from "./alumni";
 
 const Home = () => {
   return (
@@ -22,6 +23,10 @@ const Home = () => {
 
       <Section>
         <Programs />
+      </Section>
+
+      <Section>
+        <Alumni />
       </Section>
     </Main>
   );

@@ -110,3 +110,59 @@ export const PROGRAMS = [
     alt: "SHS",
   },
 ];
+
+export const ALUMNI = [
+  {
+    id: 1,
+    name: "Janice Lagundi",
+    title: "IT Software Development Manager | Oberthur Technologies",
+    profile: "https://www.sti.edu/cms/images/alumni/thumbnail/2016-janice.jpg",
+  },
+  {
+    id: 2,
+    name: "Mildred Deboque",
+    title: "Customer Service Manager | SM Aura",
+    profile:
+      "https://www.sti.edu/cms/images/alumni/thumbnail/alumnifeature_mildred.jpg",
+  },
+  {
+    id: 3,
+    name: "Angelo P. Rivera",
+    title: "Senior Salesforce Developer | Monash University",
+    profile:
+      "https://www.sti.edu/cms/images/alumni/thumbnail/AngeloRivera_THUMBNAIL-SQUARE.png",
+  },
+  {
+    id: 4,
+    name: "Michael Favila",
+    title:
+      "Associate Director, Head of Product Engineering 2 | Maya Bank, Inc.",
+    profile: "https://www.sti.edu/cms/images/alumni/thumbnail/mfavila.jpg",
+  },
+  {
+    id: 5,
+    name: "Divine Tingzon",
+    title: "Senior Analyst Programmer | iTac MSC Outsourcing",
+    profile:
+      "https://www.sti.edu/cms/images/alumni/thumbnail/divine_tingzon_1.jpg",
+  },
+  {
+    id: 6,
+    name: "Mary Grace Jedaver Pancho Opingo",
+    title: "Executive Director | Let's Talk Entertainment Inc.",
+    profile: "https://www.sti.edu/cms/images/alumni/thumbnail/2020-jedaver.jpg",
+  },
+  {
+    id: 7,
+    name: "Anthony Ang",
+    title: "Commis Chef | Carnival Cruise Line",
+    profile: "https://www.sti.edu/cms/images/alumni/thumbnail/2018-ang.jpg",
+  },
+  {
+    id: 8,
+    name: "Michaela Mendiola",
+    title: "Technical Support Representative | SPI Global",
+    profile:
+      "https://www.sti.edu/cms/images/alumni/thumbnail/2017-michaelamendiola.jpg",
+  },
+];
