@@ -1,3 +1,11 @@
+import {
+  LuAlarmClock,
+  LuBookOpen,
+  LuLaptop,
+  LuSmartphone,
+  LuUserCheck,
+} from "react-icons/lu";
+
 export const NEWS_ITEMS = [
   {
     id: 1,
@@ -49,5 +57,43 @@ export const NEWS_ITEMS = [
     thumbnail: "https://www.sti.edu/uploads/stixglobe_Square.webp",
     title: "STI, Globe Build Ties for Internship Opportunities",
     desc: "The institution teams up with yet another industry leader to strengthen its Enrollment to Employment (E2E) System",
+  },
+];
+
+export const FEATURES = [
+  {
+    id: 1,
+    title: "21st Century Education",
+    desc: "Gain industry-driven knowledge and skills with modules from leading industry partners in every AIM campus nationwide.",
+    icon: LuBookOpen,
+    bg: "#4CAF50",
+  },
+  {
+    id: 2,
+    title: "Learn Anytime, Study Anywhere",
+    desc: "Access your class lectures, handouts, and notes on your mobile devices through the AIM eLearning Management System.",
+    icon: LuLaptop,
+    bg: "#2196F3",
+  },
+  {
+    id: 3,
+    title: "Modern Training Facilities",
+    desc: "Develop your skills in fully-equipped simulation and training laboratories while you learn from certified professors.",
+    icon: LuSmartphone,
+    bg: "#FF9800",
+  },
+  {
+    id: 4,
+    title: "One AIM Student Portal",
+    desc: "Keep track of grades, class schedules, balances, and student records in this exclusive app for AIM students.",
+    icon: LuAlarmClock,
+    bg: "#9C27B0",
+  },
+  {
+    id: 5,
+    title: "Enrollment to Employment",
+    desc: "Be equipped with the right tools and guidance to start your career after graduation with AIM’s Enrollment to Employment or E2E System.",
+    icon: LuUserCheck,
+    bg: "#E91E63",
   },
 ];
