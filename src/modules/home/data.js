@@ -35,4 +35,19 @@ export const NEWS_ITEMS = [
     title: "STI, Globe Build Ties for Internship Opportunities",
     desc: "The institution teams up with yet another industry leader to strengthen its Enrollment to Employment (E2E) System",
   },
+  {
+    id: 6,
+    category: "Students",
+    thumbnail:
+      "https://www.sti.edu/uploads/simple-ways-to-harness-passion-for-success-Square.jpg",
+    title: "4 Simple Ways to Harness Your Passions for Success",
+    desc: "Simple things you can do for a fulfilling student life and career path",
+  },
+  {
+    id: 7,
+    category: "Partnerships",
+    thumbnail: "https://www.sti.edu/uploads/stixglobe_Square.webp",
+    title: "STI, Globe Build Ties for Internship Opportunities",
+    desc: "The institution teams up with yet another industry leader to strengthen its Enrollment to Employment (E2E) System",
+  },
 ];
