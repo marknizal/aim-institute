@@ -15,10 +15,10 @@ export const Wrapper = styled(C)`
 
   .model {
     border-radius: 1rem;
-    aspect-ratio: 3 / 4;
+    aspect-ratio: 16 / 9;
 
-    ${breakpoint.tablet} {
-      aspect-ratio: 16 / 9;
+    ${breakpoint.desktop} {
+      aspect-ratio: 3 / 4;
     }
   }
 
@@ -27,14 +27,14 @@ export const Wrapper = styled(C)`
   }
 `;
 
-export const List = styled.ul`
+export const List = styled.section`
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 3rem;
 `;
 
-export const Item = styled.li`
+export const Item = styled.div`
   display: flex;
   align-items: center;
   gap: 1.25rem;

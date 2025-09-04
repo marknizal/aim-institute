@@ -24,6 +24,7 @@ const LifeAtAim = () => {
             shape="circle"
             onClick={() => scroll("left")}
             icon={<FaChevronLeft />}
+            aria-label="Scroll Left"
           />
         )}
 
@@ -33,6 +34,7 @@ const LifeAtAim = () => {
             shape="circle"
             onClick={() => scroll("right")}
             icon={<FaChevronRight />}
+            aria-label="Scroll Right"
           />
         )}
 

@@ -23,6 +23,7 @@ const Alumni = () => {
             shape="circle"
             onClick={() => scroll("left")}
             icon={<FaChevronLeft />}
+            aria-label="Scroll left"
           />
         )}
 
@@ -32,6 +33,7 @@ const Alumni = () => {
             shape="circle"
             onClick={() => scroll("right")}
             icon={<FaChevronRight />}
+            aria-label="Scroll Right"
           />
         )}
 

@@ -23,6 +23,7 @@ const Header = () => {
           className="apply-now-btn"
           type="primary"
           icon={<LuExternalLink />}
+          aria-label="Apply Now"
         >
           Apply Now
         </Button>
