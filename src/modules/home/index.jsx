@@ -1,3 +1,4 @@
+import { Fade } from "react-awesome-reveal";
 import { Main, Section } from "../../components/shared";
 
 import Hero from "./hero";
@@ -10,7 +11,9 @@ const Home = () => {
   return (
     <Main>
       <Section>
-        <Hero />
+        <Fade triggerOnce direction="up">
+          <Hero />
+        </Fade>
       </Section>
 
       <Section>
@@ -18,7 +21,9 @@ const Home = () => {
       </Section>
 
       <Section $bg="#163E71">
-        <Features />
+        <Fade triggerOnce direction="left">
+          <Features />
+        </Fade>
       </Section>
 
       <Section>
