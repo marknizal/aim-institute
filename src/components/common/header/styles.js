@@ -11,10 +11,12 @@ export const Wrapper = styled.header`
   top: 0;
   left: 0;
   background-color: ${color.white};
+  transform: ${({ $show }) => ($show ? "translateY(0)" : "translateY(-100%)")};
+  transition: transform 0.3s ease;
   z-index: 999;
 
   ${breakpoint.desktop} {
-    height: 5.75rem;
+    height: 5rem;
   }
 `;
 
@@ -27,7 +29,7 @@ export const Container = styled(C)`
 
   .menu-icon {
     display: flex;
-    font-size: 1.75rem;
+    font-size: 1.65rem;
     flex-shrink: 0;
   }
 
@@ -49,13 +51,12 @@ export const Container = styled(C)`
 `;
 
 export const Logo = styled(Image)`
-  aspect-ratio: 16 / 9;
   width: 5rem;
   object-fit: contain;
   pointer-events: all;
   cursor: pointer;
 
   ${breakpoint.desktop} {
-    width: 8rem;
+    width: 7rem;
   }
 `;
