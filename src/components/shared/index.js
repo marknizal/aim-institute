@@ -1,7 +1,8 @@
-import styled from "@emotion/styled";
 import React from "react";
 
+import styled from "@emotion/styled";
 import { color, breakpoint } from "../../styles";
+import { Spin } from "antd";
 
 export const Main = styled.main`
   display: block;
@@ -43,4 +44,12 @@ export const Image = (props) =>
 export const Paragraph = styled.p`
   font-size: ${(props) => props.$size || "1rem"};
   text-align: ${(props) => props.$align || "left"};
+`;
+
+export const Loader = styled(Spin)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 `;
