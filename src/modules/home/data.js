@@ -6,32 +6,32 @@ import {
   LuUserCheck,
 } from "react-icons/lu";
 
-import N1 from "../../assets/n1.jpg";
-import N2 from "../../assets/n2.jpg";
-import N3 from "../../assets/n3.jpg";
-import N4 from "../../assets/n4.jpg";
-import N5 from "../../assets/n5.jpg";
-import N6 from "../../assets/n6.jpg";
-import N7 from "../../assets/n7.jpg";
+import N1 from "../../assets/N1.jpg";
+import N2 from "../../assets/N2.jpg";
+import N3 from "../../assets/N3.jpg";
+import N4 from "../../assets/N4.jpg";
+import N5 from "../../assets/N5.jpg";
+import N6 from "../../assets/N6.jpg";
+import N7 from "../../assets/N7.jpg";
 
-import P1 from "../../assets/p1.jpg";
-import P2 from "../../assets/p2.jpg";
+import P1 from "../../assets/P1.jpg";
+import P2 from "../../assets/P2.jpg";
 
-import A1 from "../../assets/a1.jpg";
-import A2 from "../../assets/a2.jpg";
-import A3 from "../../assets/a3.jpg";
-import A4 from "../../assets/a4.jpg";
-import A5 from "../../assets/a5.jpg";
-import A6 from "../../assets/a6.jpg";
-import A7 from "../../assets/a7.jpg";
-import A8 from "../../assets/a8.jpg";
+import A1 from "../../assets/A1.jpg";
+import A2 from "../../assets/A2.jpg";
+import A3 from "../../assets/A3.jpg";
+import A4 from "../../assets/A4.jpg";
+import A5 from "../../assets/A5.jpg";
+import A6 from "../../assets/A6.jpg";
+import A7 from "../../assets/A7.jpg";
+import A8 from "../../assets/A8.jpg";
 
-import B1 from "../../assets/b1.webp";
-import B2 from "../../assets/b2.webp";
-import B3 from "../../assets/b3.webp";
-import B4 from "../../assets/b4.webp";
-import B5 from "../../assets/b5.webp";
-import B6 from "../../assets/b6.webp";
+import B1 from "../../assets/B1.webp";
+import B2 from "../../assets/B2.webp";
+import B3 from "../../assets/B3.webp";
+import B4 from "../../assets/B4.webp";
+import B5 from "../../assets/B5.webp";
+import B6 from "../../assets/B6.webp";
 
 export const NEWS_ITEMS = [
   {
