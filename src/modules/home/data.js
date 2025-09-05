@@ -190,3 +190,54 @@ export const VIDEOS = [
     title: "Behind a Mother’s Hard Work",
   },
 ];
+
+export const BLOGS = [
+  {
+    id: 1,
+    title: "Preparing for Senior High and College",
+    date: "2024-02-16",
+    description:
+      "Here are five things you can do to focus and fine-tune the direction you're heading.",
+    thumbnail: "https://www.sti.edu/uploads2/gear-up-thumb.jpg",
+  },
+  {
+    id: 2,
+    title: "Is That Career Path Really The Right One for You?",
+    date: "2024-02-15",
+    description: "Do you think you and your dream career are compatible?",
+    thumbnail:
+      "https://www.sti.edu/uploads2/career-path-the-right-one-thumb.png",
+  },
+  {
+    id: 3,
+    title: "A Look At The Jobs In Decline",
+    date: "2024-02-15",
+    description:
+      "Know which jobs are becoming outdated so you can make the right decision for your career path.",
+    thumbnail: "https://www.sti.edu/uploads2/jobs-in-decline-thumb.png",
+  },
+  {
+    id: 4,
+    title: "6 Little Life Habits Practiced by Successful Individuals",
+    date: "2023-11-10",
+    description:
+      "Successful people are always looked up to wherever they go, but do you ever wonder what they do when things don't go their way?",
+    thumbnail: "https://www.sti.edu/uploads/6life_Thumbnail_1920X960.webp",
+  },
+  {
+    id: 5,
+    title: "How to Make the Most of Your #FirstDayHigh",
+    date: "2023-08-29",
+    description:
+      "Be someone who is confident, always approachable, and willing to learn. Make that great impression last!",
+    thumbnail: "https://www.sti.edu/uploads/SOC-HORIZONTAL.webp",
+  },
+  {
+    id: 6,
+    title: "A Student's Guide to Effectively Mastering Time",
+    date: "2023-05-17",
+    description:
+      "Discover the secrets to having full control of your schedule and achieving a healthy school-life balance!",
+    thumbnail: "https://www.sti.edu/uploads/TMT-Landscape-Thumbnail.png",
+  },
+];

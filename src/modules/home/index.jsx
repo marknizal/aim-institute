@@ -9,6 +9,7 @@ import Features from "./features";
 import Programs from "./programs";
 import Alumni from "./alumni";
 import AimInMotion from "./aim-in-motion";
+import AimBlogs from "./blogs";
 
 const Home = () => {
   return (
@@ -39,6 +40,10 @@ const Home = () => {
 
       <Section>
         <AimInMotion />
+      </Section>
+
+      <Section>
+        <AimBlogs />
       </Section>
 
       <Section $bg="#030926">
