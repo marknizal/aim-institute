@@ -29,21 +29,21 @@ const Footer = () => {
       <Section $bg="#163E71">
         <S.Grid>
           <S.Address aria-labelledby="footer-contact">
-            <S.Title id="footer-contact">AIM College</S.Title>
+            <S.Title id="footer-contact">AIM Institute</S.Title>
 
             <S.Item>
               <FaLocationArrow />
-              STI Academic Center, Ortigas Avenue Extension, Cainta, Rizal
+              AIM Academic Center, Ortigas Avenue, Lucena, Quezon
             </S.Item>
 
             <S.Item>
               <FaPhoneAlt />
-              <a href="tel:+63288121784">+63 2 8812 1784</a>
+              <a href="tel:+63288121784">+639 81 628 2561</a>
             </S.Item>
 
             <S.Item>
               <FaInfoCircle />
-              <a href="#">STI Helpdesk</a>
+              <a href="#">AIM Helpdesk</a>
             </S.Item>
           </S.Address>
 
@@ -67,8 +67,9 @@ const Footer = () => {
       <Section $bg="#030926">
         <S.Copyright>
           <span>
-            &copy; {currentYear} AIM Education Services Group, Inc. All rights
-            reserved.
+            Created by: <a href="https://marknizal.vercel.app/">Mark Nizal</a> —
+            &copy;{currentYear} Academy of Innovation & Mastery Institute. All
+            rights reserved.
           </span>
 
           <span>

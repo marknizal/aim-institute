@@ -77,18 +77,23 @@ export const Copyright = styled(C)`
   gap: 1rem;
   padding: 2.5rem 1rem;
 
-  span,
-  a {
+  span {
     font-size: 0.9rem;
     color: #ddd;
+  }
+
+  a {
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
   }
 
   ${breakpoint.mobile} {
     flex-direction: column;
     text-align: center;
 
-    span,
-    a {
+    span {
       font-size: 0.85rem;
     }
   }
