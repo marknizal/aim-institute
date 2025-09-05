@@ -43,7 +43,7 @@ const Footer = () => {
 
             <S.Item>
               <FaInfoCircle />
-              <a href="/helpdesk">STI Helpdesk</a>
+              <a href="#">STI Helpdesk</a>
             </S.Item>
           </S.Address>
 

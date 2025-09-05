@@ -17,6 +17,11 @@ export const Grid = styled(C)`
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
 
+  svg {
+    flex-shrink: 0;
+    font-size: 1rem;
+  }
+
   ${breakpoint.mobile} {
     grid-template-columns: 1fr;
   }
@@ -38,11 +43,6 @@ export const Nav = styled.nav`
 export const Address = styled.address`
   ${flexColumn}
   font-style: normal;
-
-  p {
-    font-size: 0.9rem;
-    line-height: 1.25rem;
-  }
 `;
 
 export const List = styled.ul`
@@ -54,29 +54,20 @@ export const Item = styled.span`
   display: flex;
   align-items: start;
   gap: 0.5rem;
-
-  svg {
-    flex-shrink: 0;
-    font-size: 1rem;
-  }
+  line-height: 1.25rem;
+  font-size: 0.9rem;
 `;
 
 export const Link = styled.a`
-  font-size: 0.9rem;
-  color: ${color.white};
-  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  color: ${color.white};
+  font-size: 0.9rem;
 
   &:hover,
   &:focus {
     text-decoration: underline;
-  }
-
-  svg {
-    flex-shrink: 0;
-    font-size: 1rem;
   }
 `;
 
