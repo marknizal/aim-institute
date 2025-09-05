@@ -1,98 +1,123 @@
 import {
-  LuAlarmClock,
   LuBookOpen,
   LuLaptop,
-  LuSmartphone,
+  LuBuilding,
+  LuLayoutDashboard,
   LuUserCheck,
 } from "react-icons/lu";
+
+import N1 from "../../assets/n1.jpg";
+import N2 from "../../assets/n2.jpg";
+import N3 from "../../assets/n3.jpg";
+import N4 from "../../assets/n4.jpg";
+import N5 from "../../assets/n5.jpg";
+import N6 from "../../assets/n6.jpg";
+import N7 from "../../assets/n7.jpg";
+
+import P1 from "../../assets/p1.jpg";
+import P2 from "../../assets/p2.jpg";
+
+import A1 from "../../assets/a1.jpg";
+import A2 from "../../assets/a2.jpg";
+import A3 from "../../assets/a3.jpg";
+import A4 from "../../assets/a4.jpg";
+import A5 from "../../assets/a5.jpg";
+import A6 from "../../assets/a6.jpg";
+import A7 from "../../assets/a7.jpg";
+import A8 from "../../assets/a8.jpg";
+
+import B1 from "../../assets/b1.webp";
+import B2 from "../../assets/b2.webp";
+import B3 from "../../assets/b3.webp";
+import B4 from "../../assets/b4.webp";
+import B5 from "../../assets/b5.webp";
+import B6 from "../../assets/b6.webp";
 
 export const NEWS_ITEMS = [
   {
     id: 1,
     category: "Alumni",
-    thumbnail: "https://www.sti.edu/uploads/alumni-2023-sq.jpg",
-    title: "Honoring the 23 of '23 STI Distinguished Alumni Awards",
-    desc: "This year's edition of the annual awarding event saw the highest number of awardees.",
+    thumbnail: N1,
+    title: "AIM Institute Launches Annual Innovation Awards 2025",
+    desc: "This year’s Innovation Awards celebrated groundbreaking projects and startups from AIM students and alumni.",
   },
   {
     id: 2,
-    category: "Film",
-    thumbnail: "https://www.sti.edu/uploads/cinepanalo_Thumbnail_square.webp",
-    title: "Puregold CinePanalo Grant Awarded to STI Cubao Student",
-    desc: "STI College Cubao student is awarded a PhP100,000 grant to produce a film from Puregold CinePanalo Film Fest.",
+    category: "Students",
+    thumbnail: N2,
+    title: "5 Ways AIM Students Are Building Future-Ready Skills",
+    desc: "From AI bootcamps to leadership programs, AIM students are gaining a competitive edge.",
   },
   {
     id: 3,
     category: "Awards",
-    thumbnail: "https://www.sti.edu/uploads/stidaa_2024_Square.webp",
-    title: "STI College Honors Esteemed Graduates in Alumni Awards",
-    desc: "The institution recognized the achievements of these graduates and the positive impact they have brought to the school.",
+    thumbnail: N3,
+    title: "AIM Honors Alumni Leaders Driving Global Innovation",
+    desc: "Distinguished alumni were recognized for their contributions to technology, design, and entrepreneurship.",
   },
   {
     id: 4,
-    category: "Students",
-    thumbnail:
-      "https://www.sti.edu/uploads/simple-ways-to-harness-passion-for-success-Square.jpg",
-    title: "4 Simple Ways to Harness Your Passions for Success",
-    desc: "Simple things you can do for a fulfilling student life and career path",
+    category: "Film",
+    thumbnail: N4,
+    title: "AIM Media Student Wins Creative Film Challenge",
+    desc: "AIM Senior Media Arts student received top recognition for a documentary showcasing sustainable living.",
   },
   {
     id: 5,
     category: "Partnerships",
-    thumbnail: "https://www.sti.edu/uploads/stixglobe_Square.webp",
-    title: "STI, Globe Build Ties for Internship Opportunities",
-    desc: "The institution teams up with yet another industry leader to strengthen its Enrollment to Employment (E2E) System",
+    thumbnail: N5,
+    title: "AIM Partners with Vertex Global to Expand Internships",
+    desc: "AIM signed a new partnership with Vertex Global, creating internship pipelines for tech students.",
   },
   {
     id: 6,
     category: "Students",
-    thumbnail:
-      "https://www.sti.edu/uploads/simple-ways-to-harness-passion-for-success-Square.jpg",
-    title: "4 Simple Ways to Harness Your Passions for Success",
-    desc: "Simple things you can do for a fulfilling student life and career path",
+    thumbnail: N6,
+    title: "How AIM Encourages Passion-Driven Learning",
+    desc: "AIM students share stories of finding purpose through project-based education.",
   },
   {
     id: 7,
     category: "Partnerships",
-    thumbnail: "https://www.sti.edu/uploads/stixglobe_Square.webp",
-    title: "STI, Globe Build Ties for Internship Opportunities",
-    desc: "The institution teams up with yet another industry leader to strengthen its Enrollment to Employment (E2E) System",
+    thumbnail: N7,
+    title: "New Industry Collaborations Fuel AIM’s Innovation Goals",
+    desc: "More companies are teaming up with AIM to bridge classroom learning and real-world experience.",
   },
 ];
 
 export const FEATURES = [
   {
     id: 1,
-    title: "21st Century Education",
-    desc: "Gain industry-driven knowledge and skills with modules from leading industry partners in every AIM campus nationwide.",
+    title: "Hands-On Learning Experience",
+    desc: "AIM programs focus on real-world projects, giving students a strong industry advantage.",
     icon: LuBookOpen,
     bg: "#4CAF50",
   },
   {
     id: 2,
-    title: "Learn Anytime, Study Anywhere",
-    desc: "Access your class lectures, handouts, and notes on your mobile devices through the AIM eLearning Management System.",
+    title: "Learning Without Limits",
+    desc: "Access AIM’s digital learning hub to study and collaborate anytime, anywhere.",
     icon: LuLaptop,
     bg: "#2196F3",
   },
   {
     id: 3,
-    title: "Modern Training Facilities",
-    desc: "Develop your skills in fully-equipped simulation and training laboratories while you learn from certified professors.",
-    icon: LuSmartphone,
+    title: "Innovation-Ready Facilities",
+    desc: "Cutting-edge labs and studios empower AIM students to bring their ideas to life.",
+    icon: LuBuilding,
     bg: "#FF9800",
   },
   {
     id: 4,
-    title: "One AIM Student Portal",
-    desc: "Keep track of grades, class schedules, balances, and student records in this exclusive app for AIM students.",
-    icon: LuAlarmClock,
+    title: "AIM Connect Portal",
+    desc: "Track grades, schedules, projects, and opportunities through AIM’s student portal.",
+    icon: LuLayoutDashboard,
     bg: "#9C27B0",
   },
   {
     id: 5,
-    title: "Enrollment to Employment",
-    desc: "Be equipped with the right tools and guidance to start your career after graduation with AIM’s Enrollment to Employment or E2E System.",
+    title: "Future-Focused Career Pathways",
+    desc: "AIM’s E2E Career Program prepares students for top opportunities after graduation.",
     icon: LuUserCheck,
     bg: "#E91E63",
   },
@@ -101,69 +126,64 @@ export const FEATURES = [
 export const PROGRAMS = [
   {
     id: "college",
-    src: "https://www.sti.edu/images/2025/TER_Thumbnail_Cover.jpg",
-    alt: "College",
+    src: P1,
+    alt: "AIM College Programs",
   },
   {
     id: "shs",
-    src: "https://www.sti.edu/images/2025/SHS_Thumbnail_Cover.jpg",
-    alt: "SHS",
+    src: P2,
+    alt: "AIM Senior High Programs",
   },
 ];
 
 export const ALUMNI = [
   {
     id: 1,
-    name: "Janice Lagundi",
-    title: "IT Software Development Manager | Oberthur Technologies",
-    profile: "https://www.sti.edu/cms/images/alumni/thumbnail/2016-janice.jpg",
+    name: "Alexa Navarro",
+    title: "Software Engineer | Vertex Global",
+    profile: A1,
   },
   {
     id: 2,
-    name: "Mildred Deboque",
-    title: "Customer Service Manager | SM Aura",
-    profile:
-      "https://www.sti.edu/cms/images/alumni/thumbnail/alumnifeature_mildred.jpg",
+    name: "Martin Reyes",
+    title: "Customer Experience Manager | Summit Retail Group",
+    profile: A2,
   },
   {
     id: 3,
-    name: "Angelo P. Rivera",
-    title: "Senior Salesforce Developer | Monash University",
-    profile:
-      "https://www.sti.edu/cms/images/alumni/thumbnail/AngeloRivera_THUMBNAIL-SQUARE.png",
+    name: "Rachel Park",
+    title: "Senior Developer | Nova Systems",
+    profile: A3,
   },
   {
     id: 4,
-    name: "Michael Favila",
-    title:
-      "Associate Director, Head of Product Engineering 2 | Maya Bank, Inc.",
-    profile: "https://www.sti.edu/cms/images/alumni/thumbnail/mfavila.jpg",
+    name: "Carlos Vega",
+    title: "Tech Director | Orion Bank",
+    profile: A4,
   },
   {
     id: 5,
-    name: "Divine Tingzon",
-    title: "Senior Analyst Programmer | iTac MSC Outsourcing",
-    profile:
-      "https://www.sti.edu/cms/images/alumni/thumbnail/divine_tingzon_1.jpg",
+    name: "Luna Kim",
+    title: "Full Stack Developer | Alpha Outsourcing",
+    profile: A5,
   },
   {
     id: 6,
-    name: "Mary Grace Jedaver Pancho Opingo",
-    title: "Executive Director | Let's Talk Entertainment Inc.",
-    profile: "https://www.sti.edu/cms/images/alumni/thumbnail/2020-jedaver.jpg",
+    name: "Valerie Cruz",
+    title: "Creative Producer | Inspire Media",
+    profile: A6,
   },
   {
     id: 7,
-    name: "Anthony Ang",
-    title: "Commis Chef | Carnival Cruise Line",
-    profile: "https://www.sti.edu/cms/images/alumni/thumbnail/2018-ang.jpg",
+    name: "Evan Brooks",
+    title: "Culinary Innovator | Oceanview Cruises",
+    profile: A7,
   },
   {
     id: 8,
-    name: "Michaela Mendiola",
-    title: "Technical Support Representative | SPI Global",
-    profile:
-      "https://www.sti.edu/cms/images/alumni/thumbnail/2017-michaelamendiola.jpg",
+    name: "Nina Patel",
+    title: "IT Specialist | GlobalTech Solutions",
+    profile: A8,
   },
 ];
 
@@ -175,69 +195,69 @@ export const VIDEOS = [
   },
   {
     src: "https://www.youtube.com/embed/RkDor0ZVGbU?si=6OQApzg6aZsDAGJ8",
-    title: "Keep looking up and moving forward.",
+    title: "Moving Forward with AIM Institute",
   },
   {
     src: "https://www.youtube.com/embed/yGTVRo4gayw?si=hpFP3R41gAJbfzMG",
-    title: "Made to Be More in Senior High",
+    title: "Senior High at AIM: Beyond the Basics",
   },
   {
     src: "https://www.youtube.com/embed/WgTW4OllvmE?si=nomcfKLhMhMOXe-t",
-    title: "Be More in College",
+    title: "College Life at AIM Institute",
   },
   {
     src: "https://www.youtube.com/embed/kV8EvMRYPdw?si=13Qx0khVtjfJpTU7",
-    title: "Behind a Mother’s Hard Work",
+    title: "AIM Stories: The Journey of a Dreamer",
   },
 ];
 
 export const BLOGS = [
   {
     id: 1,
-    title: "Preparing for Senior High and College",
+    title: "How to Prepare for AIM’s Rigorous Programs",
     date: "2024-02-16",
     description:
-      "Here are five things you can do to focus and fine-tune the direction you're heading.",
-    thumbnail: "https://www.sti.edu/uploads2/gear-up-thumb.jpg",
+      "From time management to hands-on projects, here’s how to thrive in AIM’s future-focused courses.",
+    thumbnail: B1,
   },
   {
     id: 2,
-    title: "Is That Career Path Really The Right One for You?",
+    title: "Finding the Right Career Path Through AIM",
     date: "2024-02-15",
-    description: "Do you think you and your dream career are compatible?",
-    thumbnail:
-      "https://www.sti.edu/uploads2/career-path-the-right-one-thumb.png",
+    description:
+      "A guide to matching your passion with AIM’s dynamic and industry-ready programs.",
+    thumbnail: B2,
   },
   {
     id: 3,
-    title: "A Look At The Jobs In Decline",
+    title: "Jobs That Are Evolving in the AI Era",
     date: "2024-02-15",
     description:
-      "Know which jobs are becoming outdated so you can make the right decision for your career path.",
-    thumbnail: "https://www.sti.edu/uploads2/jobs-in-decline-thumb.png",
+      "Explore how automation is reshaping industries and where AIM graduates fit in.",
+    thumbnail: B3,
   },
   {
     id: 4,
-    title: "6 Little Life Habits Practiced by Successful Individuals",
+    title: "Daily Habits of High-Performing AIM Students",
     date: "2023-11-10",
     description:
-      "Successful people are always looked up to wherever they go, but do you ever wonder what they do when things don't go their way?",
-    thumbnail: "https://www.sti.edu/uploads/6life_Thumbnail_1920X960.webp",
+      "Discover simple routines practiced by AIM’s top achievers to stay motivated.",
+    thumbnail: B4,
   },
   {
     id: 5,
-    title: "How to Make the Most of Your #FirstDayHigh",
+    title: "Making the Most of Your First Semester",
     date: "2023-08-29",
     description:
-      "Be someone who is confident, always approachable, and willing to learn. Make that great impression last!",
-    thumbnail: "https://www.sti.edu/uploads/SOC-HORIZONTAL.webp",
+      "AIM students share their tips for navigating the exciting first weeks of school.",
+    thumbnail: B5,
   },
   {
     id: 6,
-    title: "A Student's Guide to Effectively Mastering Time",
+    title: "Time Management Hacks for AIM Students",
     date: "2023-05-17",
     description:
-      "Discover the secrets to having full control of your schedule and achieving a healthy school-life balance!",
-    thumbnail: "https://www.sti.edu/uploads/TMT-Landscape-Thumbnail.png",
+      "From productivity apps to simple planning habits, learn how to take control of your day.",
+    thumbnail: B6,
   },
 ];
