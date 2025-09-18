@@ -6,7 +6,7 @@ Designed for optimal performance and cross-device compatibility, it provides a s
 ---
 
 ## 🚀 Live Demo
-[View Live Demo](https://marknizal.github.io/aim-institute//)
+[View Live Demo](https://marknizal.github.io/aim-institute/)
 
 ---
 
